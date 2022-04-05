@@ -16,4 +16,4 @@ AdminUser -> STI
 
 ## UI:
 
-Bootstrap -> formatting
+- Bootstrap -> formatting
