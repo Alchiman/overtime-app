@@ -58,7 +58,7 @@ group :test do
   # gem 'chromedriver-helper'
   # addded later by me(Alireza)
   gem 'byebug'
-  gem 'rspec-rails', '~> 3.0'
+  gem 'rspec-rails', '~> 5.1', '>= 5.1.1'
   gem 'capybara'
   gem 'database_cleaner'
 end
