@@ -67,7 +67,7 @@ end
 # authentication 
 
 gem 'devise', '~> 4.8', '>= 4.8.1'
-
+gem 'bootstrap', '~> 4.0.0' 
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'jquery-rails'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
