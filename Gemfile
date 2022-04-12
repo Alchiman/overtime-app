@@ -37,8 +37,13 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
+  
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails', '~> 5.1', '>= 5.1.1'
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'factory_girl_rails', '~> 4.9'
 end
 
 group :development do
@@ -50,26 +55,11 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-group :test do
-  # # Adds support for Capybara system testing and selenium driver
-  # gem 'capybara', '>= 2.15'
-  # gem 'selenium-webdriver'
-  # # Easy installation and use of chromedriver to run system tests with Chrome
-  # gem 'chromedriver-helper'
-  # addded later by me(Alireza)
-  gem 'byebug'
-  gem 'rspec-rails', '~> 5.1', '>= 5.1.1'
-  gem 'capybara'
-  gem 'database_cleaner'
-end
-
 
 # authentication 
-
 gem 'devise', '~> 4.8', '>= 4.8.1'
+
+#ui
 gem 'bootstrap', '~> 4.0.0' 
-# gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'jquery-rails'
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
